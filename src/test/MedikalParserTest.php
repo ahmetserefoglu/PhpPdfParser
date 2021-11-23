@@ -7,7 +7,7 @@ class MedikalParserTest
 {
     public function testCanParsePdf() {
         $parser = new MedikalParser();
-        $map = $parser->parse(PDF_TEST_PATH . 'optikMedula.pdf');
+        $map = $parser->parse(PDF_TEST_PATH . 'medikalHastaBezi.pdf');
         print_r($map);
     }
 
